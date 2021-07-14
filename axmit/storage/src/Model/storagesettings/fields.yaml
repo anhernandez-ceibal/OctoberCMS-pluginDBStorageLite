@@ -1,0 +1,16 @@
+fields:
+  enabled:
+    label: Use DB storage
+    span: left
+    type: switch
+    comment: Turn this option on if you want your content into DB
+  directories:
+    label: Content type
+    comment: Which content types you want to be stored into DB
+    span: right
+    type: checkboxlist
+    options:
+      layouts: Layouts
+      pages: Pages
+      partials: Partials
+      content: Content
